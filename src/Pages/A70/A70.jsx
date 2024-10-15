@@ -4,7 +4,7 @@ import Section3CamersSpecs from "./components/Section3CamersSpecs";
 import Section4Securitypage from "./components/Section4Securitypage";
 import Section5batterySpecs from "./components/Section5batterySpecs";
 import section6Img from "../../assets/A70assets/section6img.png"
-import Section7PhonesSpecs from "./components/section7PhonesSpecs";
+import Section7PhonesSpecs from "./components/Section7PhonesSpecs";
 
 const A70 = () => {
   return (
