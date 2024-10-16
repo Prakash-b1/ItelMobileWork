@@ -4,7 +4,7 @@ import GradientBackgroundWrapper from '../../../components/GradientBackgroundWra
 const Section1Entertainment = () => {
     return (
         <GradientBackgroundWrapper>
-            <div className='md:w-[735px] text-center md:text-left '>
+            <div className='lg:w-[735px] text-center md:text-left '>
                 <p className='lg:text-[48px] md:text-[36px] text-[24px] font-medium text-smoky/black text-wrap'>Ample Storage for Entertainment</p>
                 <p className='lg:text-[24px] md:text-[16px] text-[12px] font-medium md:font-normal text-wrap'>
                     Enjoy ample storage, effortless multitasking, and expandable space with its massive 256GB storage and 12GB* (4GB+8GB*) RAM.

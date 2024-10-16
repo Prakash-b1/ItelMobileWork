@@ -2,8 +2,8 @@ import GradientBackgroundWrapper from "../../../components/GradientBackgroundWra
 import sec4Img from "../../../assets/A70assets/image.png"
 const Section4Securitypage = () => {
     return (
-        <GradientBackgroundWrapper>
-            <div className='relative flex flex-col-reverse xl:flex-col gap-5  xl:h-[739px] xl:w-[1248px] overflow-hidden content'>
+        <GradientBackgroundWrapper paddingStart='0'>
+            <div className='relative flex flex-col-reverse xl:flex-col gap-5  xl:h-[739px] overflow-hidden'>
 
                 <img src={sec4Img} alt="bgimgsec3" className="xl:absolute top-[20rem]  xl:h-[739px] xl:w-[1248px] md:top-0 left-0 w-full  object-cover" />
                 <div className="z-10 flex xl:justify-end justify-center text-center xl:text-left">
