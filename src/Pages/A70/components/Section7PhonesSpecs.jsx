@@ -41,7 +41,7 @@ const Section7PhonesSpecs = () => {
                 </GradientBackgroundWrapper>
 
                 <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
-                    <div className="relative flex flex-col lg:flex-row justify-between lg:w-[738px] h-[386px] lg:h-[380px] overflow-hidden">
+                    <div className="relative flex flex-col lg:flex-row justify-between p-5 lg:w-[738px] h-[386px] lg:h-[380px] overflow-hidden">
                         <div className="p-2 lg:w-1/2">
                             <p className="text-[20px] lg:text-[40px] font-semibold md:leading-[57px]">
                                 itel A70 s Performance Dynamo: Octa-Core T603 Processor
@@ -57,9 +57,6 @@ const Section7PhonesSpecs = () => {
 
                     </div>
                 </GradientBackgroundWrapper>
-
-
-
             </div>
         </div>
     )
