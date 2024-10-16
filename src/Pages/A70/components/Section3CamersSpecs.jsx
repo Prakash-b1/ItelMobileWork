@@ -18,8 +18,8 @@ const Section3CamersSpecs = () => {
 
                 <img src={sec3Img} alt="bgimgsec3" className="absolute left-[2rem] top-[22rem] lg:top-[6rem]  lg:left-[-3rem] md:h-[540px] md:top-[7rem] w-full h-[125px] lg:h-full object-cover" />
 
-                <div className='lg:w-[455px] lg:h-[455px] relative '>
-                    <p className='font-markot lg:text-[48px] text-[24px] font-semibold md:desktop/h2'>Unleash Pure Beauty with Enhanced HDR</p>
+                <div className='lg:w-[455px] lg:h-[455px] relative lg:gap-6 lg:flex lg:flex-col'>
+                    <p className='font-markot lg:text-[48px] text-[24px] font-semibold md:leading-[57px]'>Unleash Pure Beauty with Enhanced HDR</p>
                     <span className='font-markot lg:text-[20px] text-[12px] font-normal md:leading-[32px]'>Featuring an 8MP AI Front Camera and 13MP AI Dual Rear Camera, every shot is infused with stunning detail and clarity. </span>
                 </div>
 

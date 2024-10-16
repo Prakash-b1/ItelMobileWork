@@ -9,9 +9,9 @@ const Section4Securitypage = () => {
                 <div className="z-10 flex xl:justify-end justify-center text-center xl:text-left">
                     <div className="xl:w-[401px]">
                         <p className="font-markot lg:text-[48px] text-[24px] font-semibold text-desktop/h2 md:leading-[57px]">Hello! Hassle-free Security</p>
-                        <span className="font-markot lg:text-[20px] text-[12px] font-normal md:leading-[32px]">
+                        <p className="font-markot lg:text-[20px] text-[12px] pt-5 font-normal md:leading-[32px]">
                             With itel A70s side-mounted fingerprint sensor, experience seamless login, swift access, and top-notch security.
-                        </span>
+                        </p>
                     </div>
                 </div>
 
