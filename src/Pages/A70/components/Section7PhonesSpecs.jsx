@@ -6,15 +6,15 @@ import chip from '../../../assets/A70assets/a70chip.png'
 
 const Section7PhonesSpecs = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-6 px-10 lg:px-20 py-10">
+        <div className="flex flex-col lg:flex-row gap-6 px-10 lg:px-0 py-10">
             <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
                 <div className="flex flex-col  justify-between lg:w-[518px] lg:h-[784px]">
 
                     <div className="p-5 ">
-                        <p className=" text-[20px] lg:text-[40px] font-semibold">
+                        <p className=" text-[20px] lg:text-[40px] font-semibold md:leading-[57px]">
                             Enjoy Ultra-Smooth Precision
                         </p>
-                        <span className="text-[14px] lg:text-2xl font-medium">6.6” HD+ Display | 120 Hz Touch Sampling Rate | Dynamic Bar</span>
+                        <span className="text-[14px] lg:text-2xl font-medium md:leading-[32px]">6.6” HD+ Display | 120 Hz Touch Sampling Rate | Dynamic Bar</span>
                     </div>
                     <div className="flex justify-end">
                         <img src={smooth} alt="" className="w-[316px] h-[250px] lg:w-[522px] lg:h-[416px]" />
@@ -28,10 +28,10 @@ const Section7PhonesSpecs = () => {
                 <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
                     <div className="flex flex-col  lg:w-[738px] h-[260px] lg:h-[380px] gap-10">
                         <div className="p-5 ">
-                            <p className=" text-[20px] lg:text-[40px] font-semibold">
+                            <p className=" text-[20px] lg:text-[40px] font-semibold md:leading-[57px]">
                                 Slim & Glossy: Glass-like Finish
                             </p>
-                            <span className="text-[14px] lg:text-2xl font-medium">8.6mm Ultra-slim Body</span>
+                            <span className="text-[14px] lg:text-2xl font-medium md:leading-[32px]">8.6mm Ultra-slim Body</span>
                         </div>
                         <div className="flex justify-center lg:justify-end">
                             <img src={slip} alt="" className="w-[200px] h-[36px] lg:w-[577px] lg:h-[76px]" />
@@ -43,7 +43,7 @@ const Section7PhonesSpecs = () => {
                 <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
                     <div className="relative flex flex-col lg:flex-row justify-between lg:w-[738px] h-[386px] lg:h-[380px] overflow-hidden">
                         <div className="p-2 lg:w-1/2">
-                            <p className="text-[20px] lg:text-[40px] font-semibold">
+                            <p className="text-[20px] lg:text-[40px] font-semibold md:leading-[57px]">
                                 itel A70 s Performance Dynamo: Octa-Core T603 Processor
                             </p>
                         </div>

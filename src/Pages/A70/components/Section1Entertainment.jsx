@@ -4,7 +4,7 @@ import GradientBackgroundWrapper from '../../../components/GradientBackgroundWra
 const Section1Entertainment = () => {
     return (
         <GradientBackgroundWrapper>
-            <div className='md:w-[735px] text-center md:text-left'>
+            <div className='md:w-[735px] text-center md:text-left '>
                 <p className='lg:text-[48px] md:text-[36px] text-[24px] font-medium text-smoky/black text-wrap'>Ample Storage for Entertainment</p>
                 <p className='lg:text-[24px] md:text-[16px] text-[12px] font-medium md:font-normal text-wrap'>
                     Enjoy ample storage, effortless multitasking, and expandable space with its massive 256GB storage and 12GB* (4GB+8GB*) RAM.
@@ -12,10 +12,10 @@ const Section1Entertainment = () => {
                 </p>
             </div>
             <div className='flex md:flex-row flex-col'>
-                <div className='md:p-5 md:space-y-4 flex md:block gap-2'>
+                <div className='md:py-5 md:space-y-4 flex md:block gap-2'>
                     <p className='md:text-[36px] text-[14px] font-medium text-smoky/black'>12GB* (4GB+8GB*) RAM</p>
-                    <span className='md:text-[16px] hidden md:block'>With Memory Fusion Technology</span>
-                    <hr className='h-[2px] hidden md:block bg-[#666666]' />
+                    <span className='md:text-[16px] hidden md:block leading-8'>With Memory Fusion <br  />Technology</span>
+                    <hr className='h-[1px] hidden md:block bg-[#666666]' />
                     <hr className='h-[50px] w-[4px] block md:hidden bg-[#666666]' />
                     <p className='md:text-[36px] text-[14px] font-medium text-smoky/black'>64GB/128GB/ 256GB ROM</p>
                 </div>

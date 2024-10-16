@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer components {
   .content {
-    @apply mx-auto max-w-7xl w-full md:w-11/12 text-white;
+    @apply mx-auto max-w-7xl w-full md:w-11/12 ;
   }
 }

@@ -8,7 +8,7 @@ import Section7PhonesSpecs from "./components/Section7PhonesSpecs";
 
 const A70 = () => {
   return (
-    <div>
+    <div className="content">
       <div
         className="rounded-xl mx-10 my-10 m-auto p-2 "
         style={{

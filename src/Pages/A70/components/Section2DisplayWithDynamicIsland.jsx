@@ -13,8 +13,8 @@ const Section2DisplayWithDynamicIsland = () => {
                 </div>
                 <div className='lg:pt-[15rem] lg:w-1/2 flex flex-col gap-14 '>
                     <div className='flex flex-col gap-5 text-center lg:text-left'>
-                        <p className='font-markot lg:text-[48px] text-[24px] font-semibold leading-7 lg:leading-10'>Vivid 6.6” HD+ Display with Integrated Dynamic Bar</p>
-                        <span className='font-markot lg:text-[20px] text-[12px] font-normal leading-5'>Stay informed at a glance with the dynamic notification bar, seamlessly integrated into the 6.6-inch HD+ display. Enjoy an intuitive experience where notifications are both clear and convenient.</span>
+                        <p className='font-markot lg:text-[48px] text-[24px] font-semibold leading-7 md:leading-[57px]'>Vivid 6.6” HD+ Display with Integrated Dynamic Bar</p>
+                        <span className='font-markot lg:text-[20px] text-[12px] font-normal leading-[32px]'>Stay informed at a glance with the dynamic notification bar, seamlessly integrated into the 6.6-inch HD+ display. Enjoy an intuitive experience where notifications are both clear and convenient.</span>
                     </div>
 
                     <div className='flex gap-5 lg:justify-between lg:flex-wrap pb-6 lg:pb-0'>

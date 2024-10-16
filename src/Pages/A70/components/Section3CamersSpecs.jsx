@@ -14,17 +14,17 @@ import hdrMode from "../../../assets/A70assets/hdrmode.svg"
 const Section3CamersSpecs = () => {
     return (
         <GradientBackgroundWrapper bgImage={bgImg}>
-            <div className='relative flex flex-col gap-5  xl:h-[739px] xl:w-[1248px] overflow-hidden'>
+            <div className='relative flex flex-col gap-5  lg:h-[739px] lg:w-[1248px] overflow-hidden content'>
 
-                <img src={sec3Img} alt="bgimgsec3" className="absolute top-[20rem] md:top-0 left-0 w-full h-[125px] lg:h-full object-cover" />
+                <img src={sec3Img} alt="bgimgsec3" className="absolute left-[2rem] top-[22rem] md:top-[6rem]  lg:left-[-3rem] w-full h-[125px] lg:h-full object-cover" />
 
                 <div className='lg:w-[455px] lg:h-[455px] relative'>
-                    <p className='font-markot lg:text-[48px] text-[24px] font-semibold '>Unleash Pure Beauty with Enhanced HDR</p>
-                    <span className='font-markot lg:text-[20px] text-[12px] font-normal leading-5'>Featuring an 8MP AI Front Camera and 13MP AI Dual Rear Camera, every shot is infused with stunning detail and clarity. </span>
+                    <p className='font-markot lg:text-[48px] text-[24px] font-semibold md:desktop/h2'>Unleash Pure Beauty with Enhanced HDR</p>
+                    <span className='font-markot lg:text-[20px] text-[12px] font-normal md:leading-[32px]'>Featuring an 8MP AI Front Camera and 13MP AI Dual Rear Camera, every shot is infused with stunning detail and clarity. </span>
                 </div>
 
                 <div className='flex justify-end'>
-                    <div className='w-[224px] grid md:grid-cols-2 grid-cols-3 gap-4'>
+                    <div className='w-[224px] grid md:grid-cols-2 grid-cols-3 gap-4 z-10'>
                         <div className='flex md:flex-col gap-2'>
                             <img src={beautyMode} alt="beautyMode" className='md:w-[44px] md:h-[44px] h-[20px] w-[20px]' />
                             <span className='font-markot text-[8px] md:text-[16px] font-medium '>5 AI Beauty Mode</span>
@@ -48,24 +48,39 @@ const Section3CamersSpecs = () => {
                     </div>
                 </div>
 
-                <div className='absolute'>
-                    <div className='flex flex-col gap-2'>
-                        <div className='flex '>
-                            <p className='relative top-[30rem] left-[8rem] font-bold z-2  z-10 px-2 py-2 border border-[#08E488] text-center rounded-full '>8MP AI Front Camera</p>
-                            <span className='bg-[#08E488] w-[50px] h-[2px] relative top-[31rem] left-[8rem] z-2  z-10'></span>
-                        </div>
-                        <img src={arrow} alt="arrow" className='relative left-[291px] top-[379px] z-2 h-[70px] z-10' />
-                    </div>
-                </div>
 
-                <div className='absolute'>
-                    <div className='flex '>
+
+
+                <div className="relative ">
+                    <div className="absolute hidden lg:flex  top-[-28rem] left-[-11rem] z-20">
                         <img src={rarrow} alt="mobile" className='relative left-[43rem] top-[4rem] z-2 z-10' />
                         <p className='relative left-[689px] top-[51px] font-bold z-2 h-[30px] z-10  px-2  border border-[#08E488] text-center rounded-full '>13MP AI Dual Rear Camera</p>
+
                     </div>
                 </div>
 
-                <img src={mobile} alt="mobile" className='md:w-[892px] md:h-[892px] relative md:left-[2rem] top-0 left-[-1.5rem] md:top-[-16rem]' />
+
+                <img src={mobile} alt="mobile" className='md:w-[892px] md:h-[892px] relative md:left-[-9rem] top-[1rem] left-[2px] md:top-[-16rem]' />
+            </div>
+
+
+            <div className="absolute hidden md:block z-30 top-[135rem] left-[15rem]">
+                <div className="flex flex-col gap-2">
+                    <div className="flex items-center justify-center">
+                        <p className="font-bold z-10 px-2 py-2 border border-[#08E488] text-center rounded-full">8MP AI Front Camera</p>
+                        <span className="bg-[#08E488] w-[50px] h-[2px] z-10"></span>
+                    </div>
+                    <img src={arrow} alt="arrow" className="relative z-10 h-[70px] left-[166px] top-[-6rem]" />
+                </div>
+            </div>
+            <div className="absolute md:hidden z-30 top-[1794px] w-[74px] left-[4rem]">
+                <div className="flex flex-col gap-2">
+                    <div className="flex items-center justify-center">
+                        <p className="font-semibold z-10 p-[2px] text-[8px]  border border-[#08E488] text-center rounded-lg">8MP AI Front <br /> Camera</p>
+                        <span className="bg-[#08E488] w-[5px] h-[2px] z-10"></span>
+                    </div>
+                    <img src={arrow} alt="arrow" className="relative z-10 h-[26px] w-[25px] left-[65px] top-[-43px]" />
+                </div>
             </div>
         </GradientBackgroundWrapper>
     )
