@@ -7,6 +7,7 @@ const GradientBackgroundWrapper = ({ children, bgImage, paddingStart = '20',padd
             style={{
                 background: 'linear-gradient(to right, #08E488, #00C6FF)',
                 padding: '1px',
+                overflow:'hidden'
             }}
             className="rounded-xl p-5"
         >
@@ -16,6 +17,7 @@ const GradientBackgroundWrapper = ({ children, bgImage, paddingStart = '20',padd
                     backgroundImage: `url(${bgImage || bgs})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
+                    overflow:'hidden'
                 }}
             >
                 {children}

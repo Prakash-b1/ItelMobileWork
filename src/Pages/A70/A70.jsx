@@ -10,7 +10,7 @@ const A70 = () => {
   return (
     <div className="content">
       <div
-        className="rounded-xl mx-10 my-10 m-auto p-2 "
+        className="rounded-xl  my-10 m-auto p-2 "
         style={{
           background: 'linear-gradient(to right, #08E488, #00C6FF)',
           padding: '1px',

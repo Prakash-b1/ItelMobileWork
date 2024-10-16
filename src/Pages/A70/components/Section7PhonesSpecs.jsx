@@ -6,7 +6,7 @@ import chip from '../../../assets/A70assets/a70chip.png'
 
 const Section7PhonesSpecs = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-6 px-10 lg:px-0 py-10">
+        <div className="flex flex-col lg:flex-row gap-6 px-2 lg:px-0 py-10">
             <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
                 <div className="flex flex-col  justify-between lg:w-[518px] lg:h-[784px]">
 
@@ -47,7 +47,7 @@ const Section7PhonesSpecs = () => {
                                 itel A70 s Performance Dynamo: Octa-Core T603 Processor
                             </p>
                         </div>
-                        <div className="relative lg:w-1/2 flex items-center">
+                        <div className="relative lg:w-1/2 flex items-center justify-center">
                             <img src={chip} alt="" className="relative z-10 w-[246px] h-[248px] lg:w-[300px] lg:h-[302px]" />
                             <div className="absolute hidden lg:block inset-0 bg-gradient-to-l from-[#68BDA0]/80 to-[#68BDA0]/0 opacity-70 z-0"></div>
                         </div>
