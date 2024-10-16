@@ -7,11 +7,11 @@ import fingerP from '../../../assets/A70assets/fingericon.svg'
 const Section2DisplayWithDynamicIsland = () => {
     return (
         <GradientBackgroundWrapper>
-            <div className='flex  justify-between lg:flex-row flex-col-reverse'>
+            <div className='flex  justify-between lg:flex-row flex-col-reverse lg:h-[850px]'>
                 <div className='flex lg:justify-end  items-end'>
                     <img src={dynamicIsland} alt="dynamicIsland" className='lg:w-[532px] lg:h-[700px]' />
                 </div>
-                <div className='lg:pt-[15rem] lg:w-1/2 flex flex-col gap-14 '>
+                <div className='lg:pt-[12rem] lg:w-1/2 flex flex-col gap-14 '>
                     <div className='flex flex-col gap-5 text-center lg:text-left'>
                         <p className='font-markot lg:text-[48px] text-[24px] font-semibold leading-7 md:leading-[57px]'>Vivid 6.6” HD+ Display with Integrated Dynamic Bar</p>
                         <span className='font-markot lg:text-[20px] text-[12px] font-normal leading-[32px]'>Stay informed at a glance with the dynamic notification bar, seamlessly integrated into the 6.6-inch HD+ display. Enjoy an intuitive experience where notifications are both clear and convenient.</span>
