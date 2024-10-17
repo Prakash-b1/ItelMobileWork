@@ -10,21 +10,28 @@ import gradientBgsMobile from '../../../assets/A70/Background/processor grid - m
 const Section7PhonesSpecs = () => {
     return (
         <div className="flex flex-col lg:flex-row gap-6 px-2 lg:px-0 py-10">
-            <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
-                <div className="flex flex-col  justify-between lg:w-[518px] lg:h-[784px] h-[430px]">
+              <div className="flex flex-col  justify-between lg:w-[518px] lg:h-[784px] h-[430px]">
+                <GradientBackgroundWrapper bgImage={bgImg} paddingStart="0" padding="0">
                     <div className="lg:pt-[40px] md:pt-[12px] pt-[26px] px-[12px] md:px-2 md:ps-[38px]">
                         <p className="text-mobile/h5/medium md:text-desktop/h3">
                             Enjoy Ultra-Smooth Precision
                         </p>
                         <p className="text-mobile/body/large lg:pt-[20px] md:text-desktop/h4">6.6” HD+ Display | 120 Hz Touch Sampling Rate | Dynamic Bar</p>
                     </div>
-                    <div className="flex justify-end">
-                        <img  src={smooth} alt="" className="w-[316px] h-[250px] lg:w-[522px] lg:h-[416px]" />
+                    <div className="w-[316px] h-[430px] lg:w-[522px] lg:h-[822px] mx-auto"
+                        style={{
+                            backgroundImage: `url(${smooth})`,
+                            backgroundSize: 'contain',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                        }}
+                    >
                     </div>
-                </div>
+                </GradientBackgroundWrapper>
+            </div>
 
 
-            </GradientBackgroundWrapper>
+
 
             <div className="flex flex-col gap-4 lg:w-[738px] lg:h-[784px]">
                 <GradientBackgroundWrapper bgImage={bgImg3} paddingStart="0" padding="0">
