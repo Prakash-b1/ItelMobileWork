@@ -1,11 +1,10 @@
-import A70 from "./Pages/A70/A70"
-
+import ASeventy from "./Pages/A70/ASeventy";
 
 function App() {
 
   return (
     <>
-      <A70 />
+    <ASeventy/>
     </>
   )
 }
