@@ -10,13 +10,13 @@ const A70 = () => {
   return (
     <div className="content">
       <div
-        className="rounded-xl  my-10 m-auto p-2 "
+        className="md:rounded-[64px] rounded-[16px]  my-10 m-auto p-2 "
         style={{
           background: 'linear-gradient(to right, #08E488, #00C6FF)',
           padding: '1px',
         }}
       >
-        <div className="bg-white rounded-xl space-y-5 p-2">
+        <div className="bg-white md:rounded-[64px] rounded-[16px]  space-y-5 p-[16px]">
           <Section1Entertainment />
           <Section2DisplayWithDynamicIsland />
           <Section3CamersSpecs />
