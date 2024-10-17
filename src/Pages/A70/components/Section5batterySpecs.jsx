@@ -6,7 +6,7 @@ import battery from '../../../assets/A70assets/phonebatteryimg.png'
 const Section5batterySpecs = () => {
     return (
         <GradientBackgroundWrapper bgImage={bgImg} paddingStart="57px" padding="0" mobileBgImage={bgImgMobile}>
-            <div className="flex flex-col lg:flex-row lg:pt-[28px] justify-between">
+            <div className="flex flex-col lg:flex-row lg:pt-[28px] pt-[14px] justify-between">
                 <div className="flex flex-col  justify-between gap-6 lg:gap-0">
                     <div className="lg:w-[513px] text-center md:text-left md:flex md:flex-col md:gap-5">
                         <p className="text-mobile/h4 md:text-desktop/h2">Endless Energy <br /> Always by Your Side</p>
