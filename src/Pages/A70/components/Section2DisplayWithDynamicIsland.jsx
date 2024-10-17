@@ -7,9 +7,9 @@ import bgImgMobile from '../../../assets/A70/Background/Ample Storage - Mobile.w
 const Section2DisplayWithDynamicIsland = () => {
     return (
         <GradientBackgroundWrapper mobileBgImage={bgImgMobile} paddingStart='60px'>
-            <div className='flex  lg:flex-row flex-col-reverse justify-end h-[850px]'>
-                <div className='flex lg:justify-end  items-end'>
-                    <img src={dynamicIsland} alt="dynamicIsland" className='lg:w-[532px] lg:h-[700px]' />
+            <div className='flex  lg:flex-row flex-col-reverse justify-end h-[690px] md:h-[850px]'>
+                <div className='flex md:justify-end  items-end'>
+                    <img src={dynamicIsland} loading='lazy' alt="dynamicIsland" className='lg:w-[532px] lg:h-[700px]' />
                 </div>
                 <div className='lg:pt-[148px] lg:ps-[60px]'>
                     <div className=' lg:w-[502px]  lg:h-[545px] flex flex-col gap-8 '>
@@ -20,15 +20,15 @@ const Section2DisplayWithDynamicIsland = () => {
 
                         <div className='flex gap-5 lg:justify-between lg:flex-wrap pb-6 lg:pb-0'>
                             <div className='lg:w-[230px] flex flex-col gap-5'>
-                                <img src={battery} alt="battery" className='w-[48px] h-[48px]' />
+                                <img  src={battery} alt="battery" className='w-[48px] h-[48px]' />
                                 <span className='text-mobile/h7 md:text-desktop/h6/medium'>6.6inch HD+ Display</span>
                             </div>
                             <div className='lg:w-[230px] flex flex-col gap-5'>
-                                <img src={mobile} alt="mobile" className='w-[48px] h-[48px]' />
+                                <img  src={mobile} alt="mobile" className='w-[48px] h-[48px]' />
                                 <span className='text-mobile/h7 md:text-desktop/h6/medium'>90% + Screen to Body Ratio</span>
                             </div>
                             <div className='lg:w-[230px] flex flex-col gap-5'>
-                                <img src={fingerP} alt="fingerP" className='w-[48px] h-[48px]' />
+                                <img  src={fingerP} alt="fingerP" className='w-[48px] h-[48px]' />
                                 <span className='text-mobile/h7 md:text-desktop/h6/medium'>120 Hz Touch Sampling Rate</span>
                             </div>
                         </div>

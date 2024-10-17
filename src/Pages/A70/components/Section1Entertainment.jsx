@@ -21,7 +21,7 @@ const Section1Entertainment = () => {
                 </div>
                 <span className='text-[8px] block md:hidden'>With Memory Fusion Technology</span>
                 <div className='mt-5 md:mt-0'>
-                    <img src={popImg} alt="popImg" className='md:w-[1160px] w-[300px]' />
+                    <img src={popImg} alt="popImg"  className='md:w-[1160px] w-[300px]' />
                 </div>
             </div>
         </GradientBackgroundWrapper>

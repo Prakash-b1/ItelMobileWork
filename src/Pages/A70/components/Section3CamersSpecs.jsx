@@ -10,8 +10,7 @@ import hdrMode from "../../../assets/A70assets/hdrmode.svg"
 
 const Section3CamersSpecs = () => {
     return (
-        <GradientBackgroundWrapper bgImage={bgImg} paddingStart='48px' padding='10px' mobileBgImage={bgImgMobile}  // Pass mobile background image
-        >
+        <GradientBackgroundWrapper bgImage={bgImg} paddingStart='48px' padding='10px' mobileBgImage={bgImgMobile}>
             <div className='relative flex flex-col lg:flex-row h-[390px] lg:justify-between  lg:pt-[28px]  gap-2 md:gap-5 md:h-[600px] lg:h-[739px] overflow-hidden'>
 
                 <div className='lg:w-[455px] text-center lg:text-left lg:h-[455px] relative lg:gap-6 lg:flex lg:flex-col'>
