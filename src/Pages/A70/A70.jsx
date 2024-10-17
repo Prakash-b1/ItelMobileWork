@@ -3,8 +3,9 @@ import Section2DisplayWithDynamicIsland from "./components/Section2DisplayWithDy
 import Section3CamersSpecs from "./components/Section3CamersSpecs";
 import Section4Securitypage from "./components/Section4Securitypage";
 import Section5batterySpecs from "./components/Section5batterySpecs";
-import section6Img from "../../assets/A70assets/section6img.png"
+import section6Img from "../../assets/A70/Background/phonesbg.webp"
 import Section7PhonesSpecs from "./components/Section7PhonesSpecs";
+import GradientBackgroundWrapper from "../../components/GradientBackgroundWrapper ";
 
 const A70 = () => {
   return (
@@ -24,11 +25,23 @@ const A70 = () => {
           <Section5batterySpecs />
         </div>
       </div>
-      <div>
-        <img src={section6Img} alt="bgImg" className="w-full h-full" />
+      <div
+      style={{
+        backgroundImage: `url(${section6Img})`, // Use mobileBgImage for mobile
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        overflow: 'hidden',
+        padding: '0',
+    }}
+      >
+        <div className="md:h-[850px] h-[200px] flex justify-center items-end">
+          <p className="text-mobile/h6 text-center md:text-desktop/h2 pb-[26px] lg:pb-[80px]">
+            Epic Vibes: Dive into <span className="text-itel-red">Awesomeness!</span>
+          </p>
+        </div>
       </div>
-      
-      <Section7PhonesSpecs/>
+
+      <Section7PhonesSpecs />
     </div>
   );
 };
