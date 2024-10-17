@@ -7,7 +7,7 @@ import bgImgMobile from '../../../assets/A70/Background/Ample Storage - Mobile.w
 const Section2DisplayWithDynamicIsland = () => {
     return (
         <GradientBackgroundWrapper mobileBgImage={bgImgMobile} paddingStart='60px'>
-            <div className='flex  lg:flex-row flex-col-reverse justify-start h-[850px]'>
+            <div className='flex  lg:flex-row flex-col-reverse justify-end h-[850px]'>
                 <div className='flex lg:justify-end  items-end'>
                     <img src={dynamicIsland} alt="dynamicIsland" className='lg:w-[532px] lg:h-[700px]' />
                 </div>
