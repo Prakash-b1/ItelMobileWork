@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
 
-const GradientBackgroundWrapper = ({ children, bgImage, mobileBgImage, paddingStart = '88px',padding="15px" }) => {
+const GradientBackgroundWrapper = ({ children, bgImage, mobileBgImage, paddingStart = '88px',padding="15px",borderRadius="56px" }) => {
     return (
         <div
             style={{
                 background: 'linear-gradient(to right, #08E488, #00C6FF)',
                 padding: '1px',
-                overflow:'hidden'
+                overflow:'hidden',
+                borderRadius:borderRadius
+                
             }}
-            className="md:rounded-[56px] rounded-[16px] p-5 "
+                className={`md:rounded-[${borderRadius}] rounded-[16px] p-5 `}
         >
             <div
-                className={`bg-white  lg:block hidden  md:rounded-[56px] rounded-[16px]  pb-0 ps-2 `}
+                className={`bg-white  lg:block hidden  md:rounded-[${borderRadius}] rounded-[16px]  pb-0 ps-2 `}
                 style={{
                     backgroundImage: `url(${bgImage || '/public/a70/AmpleStorageBG.webp'})`,
                     backgroundSize: 'cover',
@@ -19,6 +21,7 @@ const GradientBackgroundWrapper = ({ children, bgImage, mobileBgImage, paddingSt
                     overflow:'hidden',
                     paddingLeft:paddingStart,
                     paddingRight:padding,
+                    
                     
                 }}
             >

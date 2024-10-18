@@ -1,4 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
+import HeroSectionOfPage from "./components/HeroSectionOfPage";
 import Section1Entertainment from "./components/Section1Entertainment";
 import Section2DisplayWithDynamicIsland from "./components/Section2DisplayWithDynamicIsland";
 import Section3CamersSpecs from "./components/Section3CamersSpecs";
@@ -10,6 +11,7 @@ import Section7PhonesSpecs from "./components/Section7PhonesSpecs";
 const ASeventy = () => {
   return (
     <div className="content">
+      <HeroSectionOfPage/>
       <div
         className="md:rounded-[64px] rounded-[16px]  my-10 p-2 "
         style={{
