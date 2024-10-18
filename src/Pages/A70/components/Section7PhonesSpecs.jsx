@@ -2,7 +2,7 @@ import GradientBackgroundWrapper from "../../../components/GradientBackgroundWra
 
 const Section7PhonesSpecs = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-6 px-2 lg:px-0 py-10">
+        <div className="flex flex-col lg:flex-row gap-6 px-2 lg:px-0 py-10 content">
               <div className="flex flex-col  justify-between lg:w-[518px] lg:h-[784px] h-[430px]">
                 <GradientBackgroundWrapper bgImage={'/a70/DisplaygridBG.webp'}  borderRadius="16px" mobileBgImage={'/a70/DisplaygridBG.webp'} paddingStart="0" padding="0">
                     <div className="lg:pt-[40px] md:pt-[12px] pt-[26px] px-[12px] md:px-2 md:ps-[38px]">

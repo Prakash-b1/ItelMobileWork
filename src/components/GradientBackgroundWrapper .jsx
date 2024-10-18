@@ -7,7 +7,7 @@ const GradientBackgroundWrapper = ({ children, bgImage, mobileBgImage, paddingSt
                 background: 'linear-gradient(to right, #08E488, #00C6FF)',
                 padding: '1px',
                 overflow:'hidden',
-                borderRadius:borderRadius
+                // borderRadius:borderRadius
                 
             }}
                 className={`md:rounded-[${borderRadius}] rounded-[16px] p-5 `}

@@ -10,10 +10,10 @@ import Section7PhonesSpecs from "./components/Section7PhonesSpecs";
 
 const ASeventy = () => {
   return (
-    <div className="content">
+    <div className="">
       <HeroSectionOfPage/>
       <div
-        className="md:rounded-[64px] rounded-[16px]  my-10 p-2 "
+        className="md:rounded-[64px] rounded-[16px]  my-10 p-2 content"
         style={{
           background: 'linear-gradient(to right, #08E488, #00C6FF)',
           padding: '1px',
