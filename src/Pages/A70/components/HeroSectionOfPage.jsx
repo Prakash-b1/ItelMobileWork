@@ -1,6 +1,6 @@
 const HeroSectionOfPage = () => {
     const commonTextContent = (
-        <div className="lg:gap-16 gap-4 flex flex-col justify-center px-4 pt-14 md:pt-0 md:px-0 lg:ps-[88px]">
+        <div className="lg:gap-16 gap-4 flex flex-col justify-center px-4 pt-14 lg:pt-0 md:ps-[88px]">
             <div className="flex flex-col gap-4">
                 <div className="border-2 flex items-center px-1 gap-2 font-bold border-[#3A3358] text-[#3A3358] text-center rounded-full max-w-[156px]">
                     <span>Awesome series</span>
@@ -31,7 +31,7 @@ const HeroSectionOfPage = () => {
                 }}
                 className="hidden md:block overflow-hidden"
             >
-                <div className="md:h-[800px] h-[521px] flex flex-col md:flex-row md:justify-between">
+                <div className="md:h-[800px] h-[521px] flex flex-col lg:flex-row md:justify-between">
                     {commonTextContent}
                     <img src="/a70/HritikPhotoDashb.png" alt="A70Banner" className="h-[1409px] w-[849px]" />
                 </div>
