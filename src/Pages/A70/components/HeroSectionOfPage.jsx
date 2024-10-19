@@ -43,12 +43,13 @@ const HeroSectionOfPage = () => {
                     backgroundImage: `url('/a70/A70bannermobile.webp')`,
                     backgroundSize: 'contain',
                     backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
                 }}
                 className="md:hidden overflow-hidden"
             >
                 <div className="w-[360px] h-[480px] flex flex-col">
                     {commonTextContent}
-                    <img src="/a70/HritikPhotoDashb.png" alt="A70Banner" className="h-[480px] w-[289px]" />
+                    <img src="/a70/HritikPhotoDashb.png" alt="A70Banner" className="h-[480px] w-[289px] m-auto " />
                 </div>
             </div>
         </div>

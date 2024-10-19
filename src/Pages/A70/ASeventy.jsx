@@ -12,6 +12,8 @@ const ASeventy = () => {
   return (
     <div className="">
       <HeroSectionOfPage/>
+      {/* <StickyHeader title="A70"  purchaseLink={''} icon={'/a70/stickyeHeaderIcon.svg'} bgColor={'#FFFFFF'} /> */}
+
       <div
         className="md:rounded-[64px] rounded-[16px]  my-10 p-2 content"
         style={{
